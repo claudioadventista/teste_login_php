@@ -2,8 +2,8 @@
 
 $host = "localhost"; 
 $banco = "ordem_servico"; //nome do banco
-$usuario = "root";        // usuario do banco
-$senha = "";              // senha do banco
+$usuario = "root";        // nome do usuario
+$senha = "";              // senha do usuario
 $mensagem="Erro ao conectar";
 
 $conexao = mysqli_connect($host, $usuario, $senha, $banco); 
