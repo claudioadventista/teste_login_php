@@ -1,5 +1,6 @@
 <?php
     // deloga o usuário ao entrar nessa página, destruindo todas as sessions
+    @session_start();
     if(isset($_SESSION)){
         session_destroy();
     }
